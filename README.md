@@ -39,7 +39,7 @@
 ## Step 3. Create database and set up a new user
 
     Enter mysql cli with a user with enough privileges to create a database and a user.
-    You can use whatever username and password you wish. Just don't forget to set them on the .env file (step 3)
+    You can use whatever username and password you wish. Just remember to set them on the .env file (step 3)
 
     mysql> CREATE DATABASE md;
     mysql> CREATE USER 'md'@'localhost' IDENTIFIED BY 'mdpassword';
@@ -68,4 +68,4 @@
 
     $ php -S 127.0.0.1:3000 -t public
 
-    http://localhost:3000/phptest.html
+    open Browser on: http://localhost:3000/phptest.html

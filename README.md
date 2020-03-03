@@ -5,8 +5,8 @@
     This API was coded on the Lumen Framework. 
     "Lumen is a micro web framework written in PHP, created by Laravel."
     The API follows a classic Controller/Service micro-service architecture.
-    No repository layer was used as the.
-    No "View" of the MVC stack was used, the Controllers do the output by themselves. Views would be overkill.
+    No repository layer was used.
+    No "View" of the MVC paradigm was used, as it would be a bit overkill. 
 
 
 ## install instructions

@@ -1,5 +1,14 @@
 # MD
 
+## Brief intro
+
+    This API was coded on the Lumen Framework. 
+    "Lumen is a micro web framework written in PHP, created by Laravel."
+    The API follows a classic Controller/Service micro-service architecture.
+    No repository layer was used as the.
+    No "View" of the MVC stack was used, the Controllers do the output by themselves. Views would be overkill.
+
+
 ## install instructions
 
     These instructions are meant to be used on a Linux distro.
@@ -29,7 +38,8 @@
 
 ## Step 3. Create database and set up a new user
 
-    Enter mysql cli with a user with enough privileges to create a database and a user. You can use whatever username and password you wish. Just don't forget to set them on the .env file (step 3)
+    Enter mysql cli with a user with enough privileges to create a database and a user.
+    You can use whatever username and password you wish. Just don't forget to set them on the .env file (step 3)
 
     mysql> CREATE DATABASE md;
     mysql> CREATE USER 'md'@'localhost' IDENTIFIED BY 'mdpassword';

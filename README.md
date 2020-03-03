@@ -20,7 +20,7 @@
 
 ## Step 1. Install composer
 
-    Composer is a dependency managar for php. Let's install it on your home folder.
+    Composer is a dependency manager for php. Let's install it on your home folder.
     You can delete the composer file when you don't need this anymore.
 
     $ cd ~
@@ -45,7 +45,7 @@
     mysql> CREATE USER 'md'@'localhost' IDENTIFIED BY 'mdpassword';
     mysql> GRANT ALL PRIVILEGES ON md.* TO 'md'@'localhost';
 
-## Step 3. Configure application
+## Step 4. Configure application
 
     edit the .env file and edit, if needed, any or all of the following settings:
 
@@ -60,12 +60,14 @@
     DB_USERNAME=md
     DB_PASSWORD=mdpassword    
         
-## Step 4. Migrate! This will create the database and cache table
+## Step 5. Migrate! This will create the database and cache table
 
     $ php artisan migrate
 
-## Step 5. Run app on port 3000
+## Step 6. Run app on port 3000
 
     $ php -S 127.0.0.1:3000 -t public
 
-    open Browser on: http://localhost:3000/phptest.html
+open Browser on: 
+    
+    http://localhost:3000/phptest.html

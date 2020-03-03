@@ -11,7 +11,8 @@
 
 ## Step 1. Install composer
 
-    Composer is a dependency managar for php. Let's install it on your home folder. You can delete the composer file when you don't need this anymore.
+    Composer is a dependency managar for php. Let's install it on your home folder.
+    You can delete the composer file when you don't need this anymore.
 
     $ cd ~
     $ php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"    
@@ -22,7 +23,7 @@
 
 ## Step 2. Use composer to install project dependencies
 
-    On these project root folder execute:
+    On this project's root folder execute:
 
     $ ~/composer install 
 
